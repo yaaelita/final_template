@@ -1,72 +1,57 @@
 @font-face {
-    font-family: 'montserrat-regular';
-    src: local('Montserrat Regular')
-         url('../fonts/montserrat/montserrat-regular-webfont.woff2') format('woff2'),
-         url('../fonts/montserrat/montserrat-regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'montserrat-regular';
+  src: local('Montserrat Regular') url('../fonts/montserrat/montserrat-regular-webfont.woff2') format('woff2'), url('../fonts/montserrat/montserrat-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: 'montserrat-light-regular';
-    src: url('../fonts/montserrat/montserrat-light-webfont.woff2') format('woff2'),
-         url('../fonts/montserrat/montserrat-light-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'montserrat-light-regular';
+  src: url('../fonts/montserrat/montserrat-light-webfont.woff2') format('woff2'), url('../fonts/montserrat/montserrat-light-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: 'montserrat-extra-light-regular';
-    src: url('../fonts/montserrat/montserrat-extralight-webfont.woff2') format('woff2'),
-         url('../fonts/montserrat/montserrat-extralight-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-
-
-
-@font-face {
-    font-family: 'raleway-extra-bold-regular';
-    src: url('../fonts/raleway/raleway-extrabold-webfont.woff2') format('woff2'),
-         url('../fonts/raleway/raleway-extrabold-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-
-@font-face {
-    font-family: 'raleway-bold';
-    src: url('../fonts/raleway/raleway-bold-webfont.woff2') format('woff2'),
-         url('../fonts/raleway/raleway-bold-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-
-@font-face {
-    font-family: 'raleway-semibold';
-    src: url('../fonts/raleway/raleway-semibold-webfont.woff2') format('woff2'),
-         url('../fonts/raleway/raleway-semibold-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-
-@font-face {
-    font-family: 'raleway-medium-regular';
-    src: url('../fonts/raleway/raleway-medium-webfont.woff2') format('woff2'),
-         url('../fonts/raleway/raleway-medium-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'montserrat-extra-light-regular';
+  src: url('../fonts/montserrat/montserrat-extralight-webfont.woff2') format('woff2'), url('../fonts/montserrat/montserrat-extralight-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: 'raleway-regular';
-    src: url('../fonts/raleway/raleway-regular-webfont.woff2') format('woff2'),
-         url('../fonts/raleway/raleway-regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'raleway-extra-bold-regular';
+  src: url('../fonts/raleway/raleway-extrabold-webfont.woff2') format('woff2'), url('../fonts/raleway/raleway-extrabold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'raleway-bold';
+  src: url('../fonts/raleway/raleway-bold-webfont.woff2') format('woff2'), url('../fonts/raleway/raleway-bold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'raleway-semibold';
+  src: url('../fonts/raleway/raleway-semibold-webfont.woff2') format('woff2'), url('../fonts/raleway/raleway-semibold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'raleway-medium-regular';
+  src: url('../fonts/raleway/raleway-medium-webfont.woff2') format('woff2'), url('../fonts/raleway/raleway-medium-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'raleway-regular';
+  src: url('../fonts/raleway/raleway-regular-webfont.woff2') format('woff2'), url('../fonts/raleway/raleway-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
 }
 
 body {
@@ -79,19 +64,20 @@ body {
   width: 1920px;
   margin: 0 auto;
 }
- 
+
 .header {
   width: 100%;
   height: 1024px;
 }
 
+
 /* ---Menu---*/
 
 .nav-wrapper {
-  display: flex; 
+  display: flex;
   justify-content: center;
-  flex-wrap: nowrap; 
-  justify-content: space-around; 
+  flex-wrap: nowrap;
+  justify-content: space-around;
   width: 60%;
 }
 
@@ -105,7 +91,7 @@ nav {
   justify-content: space-around;
   position: absolute;
   top: 20px;
-  align-items: center; 
+  align-items: center;
 }
 
 .logo {
@@ -123,7 +109,7 @@ nav {
 
 .logo-txt {
   font-family: 'raleway-regular', 'arial', sans-serif;
-  color:  #fff;
+  color: #fff;
   font-size: 34px;
   font-weight: 400;
   text-align: right;
@@ -135,13 +121,13 @@ nav {
 }
 
 .logo:hover .logo-txt {
-  color: #998675; 
+  color: #998675;
 }
 
 .nav-icons {
   display: flex;
   justify-content: flex-start;
-  align-items: center; 
+  align-items: center;
   min-height: 56px;
   width: 150px;
 }
@@ -153,14 +139,12 @@ ul {
   /* можно попробовать задать min-width и max-width */
   padding: 0;
   background-color: transparent;
-  align-items: center; 
+  align-items: center;
   display: flex;
   justify-content: space-between;
 }
 
-ul li {
-  
-}
+ul li {}
 
 ul li a {
   display: block;
@@ -175,7 +159,7 @@ ul li a {
   font-weight: 300;
 }
 
-ul li a:hover  {
+ul li a:hover {
   color: #998675;
 }
 
@@ -196,34 +180,35 @@ ul li a:hover  {
 }
 
 .btn-bag {
- display: block;
- background-color: transparent;
- border: none;
- outline: none;
+  display: block;
+  background-color: transparent;
+  border: none;
+  outline: none;
 }
 
 .btn-search {
- display: block;
- background-color: transparent;
- border: none;
- outline: none;
+  display: block;
+  background-color: transparent;
+  border: none;
+  outline: none;
 }
+
 
 /* ---Carousel---*/
 
 .carousel {
-  width: 100%; 
+  width: 100%;
   position: relative;
   overflow: hidden;
   display: flex;
   justify-content: center;
-  align-items: center; 
+  align-items: center;
 }
 
 .carousel-wrapper {
   top: 0;
   left: 0;
-  width: 100%; 
+  width: 100%;
   height: 1024px;
   display: flex;
   transition: transform 0.6s ease;
@@ -284,38 +269,37 @@ ul li a:hover  {
   max-width: 100%;
 }
 
-    .carousel-control:hover,
-    .carousel-control:focus {
-      color: #fff;
-      text-decoration: none;
-      outline: 0;
-      opacity: .9;
-    }
+.carousel-control:hover,
+.carousel-control:focus {
+  color: #fff;
+  text-decoration: none;
+  outline: 0;
+  opacity: .9;
+}
 
-    .carousel-control-left {
-      left: 30px;
-    }
+.carousel-control-left {
+  left: 30px;
+}
 
-    .carousel-control-right {
-      right: 30px;
-    }
+.carousel-control-right {
+  right: 30px;
+}
 
-    .carousel-control::before {
-      content: '';
-      display: inline-block;
-      width: 20px;
-      height: 20px;
-      background: transparent no-repeat center center;
-      background-size: 100% 100%;
-    }
+.carousel-control::before {
+  content: '';
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background: transparent no-repeat center center;
+  background-size: 100% 100%;
+}
 
+.carousel-item>div {
+  line-height: 250px;
+  font-size: 100px;
+  text-align: center;
+}
 
-    .carousel-item>div {
-      line-height: 250px;
-      font-size: 100px;
-      text-align: center;
-    }
-    
 .carousel-pagination {
   display: flex;
   align-self: flex-end;
@@ -323,8 +307,8 @@ ul li a:hover  {
   position: absolute;
   bottom: 20px;
   width: 10%;
-}    
-    
+}
+
 .carousel-pag-control {
   display: block;
   width: 11px;
@@ -333,7 +317,7 @@ ul li a:hover  {
   background-color: #fff;
   border: 2px solid #d3c1ad;
   border-radius: 50%;
-}    
+}
 
 .carousel-pag-control:hover {
   border: 2px solid #fff;
@@ -383,7 +367,7 @@ ul li a:hover  {
 
 .btn-carousel {
   display: flex;
-  display: inline-flex; 
+  display: inline-flex;
   flex-position: center;
   width: 170px;
   height: 53px;
@@ -391,7 +375,7 @@ ul li a:hover  {
   border-radius: 3px;
   text-align: center;
   min-height: 25px;
-  text-decoration: none; 
+  text-decoration: none;
   outline: none;
 }
 
@@ -408,20 +392,21 @@ ul li a:hover  {
 }
 
 .btn-carousel:hover {
-  background-color:  #736356;
- }
+  background-color: #736356;
+}
 
 .btn-carousel:hover .btn-txt {
-    color: #444;
+  color: #444;
 }
 
 .btn-carousel:active {
   background: #ccc;
- }
+}
 
 .btn-carousel:active .btn-txt {
-    color: white;
+  color: white;
 }
+
 
 /* ---Options---*/
 
@@ -451,9 +436,8 @@ ul li a:hover  {
   fill: #deb887;
 }
 
-
 .link-services:hover span {
-  color: #deb887;  
+  color: #deb887;
 }
 
 .link-services:hover:after {
@@ -491,6 +475,7 @@ ul li a:hover  {
   background-color: black;
 }
 
+
 /* ---Purchase---*/
 
 .purchase {
@@ -499,9 +484,9 @@ ul li a:hover  {
 }
 
 .screenshots {
-  display: flex;  
-  flex-wrap: wrap; 
-  justify-content: center;  
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   item-align: center;
   padding-top: 50px;
 }
@@ -522,15 +507,14 @@ ul li a:hover  {
 }
 
 .browser-left {
- display: block;
- left: 0; 
- bottom: 0;
- z-index: 1;
- position: absolute;
- width: 770px;
- height: 400px;
+  display: block;
+  left: 0;
+  bottom: 0;
+  z-index: 1;
+  position: absolute;
+  width: 770px;
+  height: 400px;
 }
-
 
 .browser-center {
   display: block;
@@ -543,27 +527,25 @@ ul li a:hover  {
   height: 482px;
   z-index: 3;
 }
- 
 
 .browser-right {
- display: block;
- right: 0; 
- bottom: 0;
- z-index: 2;
- position: absolute;
+  display: block;
+  right: 0;
+  bottom: 0;
+  z-index: 2;
+  position: absolute;
   width: 770px;
   height: 400px;
 }
 
-
 .browser-left:hover {
- z-index: 4;
+  z-index: 4;
 }
 
 .browser-right:hover {
- z-index: 4;
+  z-index: 4;
 }
- 
+
 .title {
   font-family: 'raleway-semibold', 'arial', sans-serif;
   font-size: 30px;
@@ -590,7 +572,7 @@ ul li a:hover  {
 }
 
 .purchase-txt-container {
-  margin: auto; 
+  margin: auto;
   width: 45%;
 }
 
@@ -606,7 +588,7 @@ ul li a:hover  {
 
 .purchase-now-company-name {
   color: #c7b299;
-    padding: 0 0 0 0;
+  padding: 0 0 0 0;
 }
 
 .purchase-now-txt {
@@ -640,7 +622,7 @@ ul li a:hover  {
 .btn-purchase-now {
   position: absolute;
   display: flex;
-  display: inline-flex; 
+  display: inline-flex;
   width: 170px;
   height: 50px;
   background-color: #998675;
@@ -650,16 +632,16 @@ ul li a:hover  {
 }
 
 .btn-purchase-now:hover {
-  background-color:  #736356;
-/*   border-bottom: 3px solid #998675; */
+  background-color: #736356;
+  /*   border-bottom: 3px solid #998675; */
 }
 
 .btn-purchase-now:hover .btn-txt {
-  color:  #ccc;
+  color: #ccc;
 }
 
 .btn-purchase-now:active .btn-txt {
-  color:  #fff;
+  color: #fff;
 }
 
 .btn-purchase-now-txt {
@@ -671,6 +653,7 @@ ul li a:hover  {
   line-height: 23px;
   text-align: center;
 }
+
 
 /* ---Projects---*/
 
@@ -697,7 +680,9 @@ ul li a:hover  {
   width: 60%;
 }
 
+
 /* ---Video---*/
+
 .video-wrapper {
   display: block;
   width: 100%;
@@ -726,7 +711,7 @@ ul li a:hover  {
   margin: auto;
 }
 
-.video { 
+.video {
   display: block;
   position: absolute;
   width: 100%;
@@ -734,6 +719,7 @@ ul li a:hover  {
   z-index: 1;
   border: 2px solid black;
 }
+
 
 /* ---Mobile---*/
 
@@ -799,7 +785,7 @@ ul li a:hover  {
   line-height: 32px;
   font-weight: 300;
   color: #8c8c8c;
-  text-align: left; 
+  text-align: left;
 }
 
 .mobile-list-item {
@@ -821,6 +807,7 @@ ul li a:hover  {
   background-repeat: no-repeat;
   background-position: center;
 }
+
 
 /* ---Stat---*/
 
@@ -857,34 +844,33 @@ ul li a:hover  {
   fill: #deb887;
 }
 
-
 .statistics:hover span {
-  color: #deb887;  
+  color: #deb887;
 }
 
 .statistics:hover:after {
   background-color: #deb887;
 }
 
-.statistics  svg {
+.statistics svg {
   fill: black;
 }
 
-.statistics  span {
+.statistics span {
   font-family: 'montserrat-extra-light-regular', 'arial', sans-serif;
   font-size: 48px;
-  line-height: 36px; 
+  line-height: 36px;
   font-weight: 200;
   color: #fff;
   width: 100%;
   margin: 10px 0 0 0;
 }
 
-.statistics  p {
+.statistics p {
   width: 100%;
   font-family: 'montserrat-light-regular', 'arial', sans-serif;
   font-size: 14px;
-  line-height: 20px; 
+  line-height: 20px;
   font-weight: 300;
   text-transform: uppercase;
   color: #c7b299;
@@ -897,6 +883,7 @@ ul li a:hover  {
   height: 2px;
   background-color: #fff;
 }
+
 
 /* ---Posts---*/
 
@@ -932,15 +919,12 @@ footer {
   justify-content: space-around;
   width: 100%;
   height: 111px;
-  background-color: #111111;
+  background-color: #111;
 }
 
-.footer-wrapper-left {
-}
+.footer-wrapper-left {}
 
-.footer-wrapper-right{
-}
-
+.footer-wrapper-right {}
 
 .footer-txt {
   font-family: 'montserrat-light-regular', 'arial', sans-serif;
@@ -966,4 +950,3 @@ footer {
   color: #959595;
   text-decoration: none;
 }
-		
